@@ -13,18 +13,18 @@ I am a dedicated Senior QA Engineer with extensive experience in ensuring the qu
 
 ---
 ### Skills
- |Skills           | Tools                  |
- |----------------:|:-----------------------|
- |JavaScript Basic | VS Code, WebStorm      |
- |Git              | GitLab, GitHub         |
- |SQL (Oracle)     | DBeaver, SQL Developer |
- |Rest API         | Postman, Insomnia      |
- |Test Cases       | TestLink, TestRail     |
- |Logs             | Kibana                 |
- |Common Docs      | Confluence             |
- |Bug Tracking     | Jira, Redmine          |
- |GraphQL          |                        |
- |Selenium         |                        |
+ |Skills            | Tools                    |
+ |------------------|--------------------------|
+ |JavaScript Basic  | VS Code, WebStorm        |
+ |Git               | GitLab, GitHub           |
+ |SQL (Oracle)      | DBeaver, SQL Developer   |
+ |Rest API          | Postman, Insomnia        |
+ |Test Cases        | TestLink, TestRail       |
+ |Logs              | Kibana                   |
+ |Common Docs       | Confluence               |
+ |Bug Tracking      | Jira, Redmine            |
+ |GraphQL           |                          |
+ |Selenium          |                          |
 
 ---
 ### Code Examples
