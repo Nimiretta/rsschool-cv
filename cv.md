@@ -12,19 +12,23 @@
 I am a dedicated Senior QA Engineer with extensive experience in ensuring the quality of web applications. Skilled in both manual and automated testing, I excel at analyzing requirements, developing test strategies, and mentoring team members. I am committed to continuous improvement and process automation, which has significantly enhanced the efficiency and reliability of the projects I have worked on.
 
 ---
-### Skills
- |Skills            | Tools                    |
- |------------------|--------------------------|
- |JavaScript Basic  | VS Code, WebStorm        |
- |Git               | GitLab, GitHub           |
- |SQL (Oracle)      | DBeaver, SQL Developer   |
- |Rest API          | Postman, Insomnia        |
- |Test Cases        | TestLink, TestRail       |
- |Logs              | Kibana                   |
- |Common Docs       | Confluence               |
- |Bug Tracking      | Jira, Redmine            |
- |GraphQL           |                          |
- |Selenium          |                          |
+### Skills & Tools
+ 1. Skills
+    * JavaScript Basic
+    * Git
+    * SQL (Oracle)
+    * Rest API 
+    * GraphQL
+    * Selenium
+ 2. Tools
+    * VS Code, WebStorm 
+    * GitLab, GitHub 
+    * DBeaver, SQL Developer
+    * Postman, Insomnia
+    * TestLink, TestRail
+    * Kibana
+    * Confluence
+    * Jira, Redmine
 
 ---
 ### Code Examples
