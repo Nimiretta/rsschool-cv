@@ -1,5 +1,5 @@
 # Tatiana Korol
-![photo](./photo_for_cv.png)
+![photo](./assets/img/photo_for_cv.png)
 ## Senior QA Engineer
 ### Contact Information
  * **Telegram**: @Nimiretta

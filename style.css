@@ -1,5 +1,110 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  align-items: center;
+}
+
+.profile-photo {
+  height: 350px;
+  border-radius: 800px;
+}
+
+.joint-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.joint-section>.section {
+  width: 50%;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.job-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.job-item, .skills-container-item {
+  width: 50%;
+}
+
+.skills-container {
+  display: flex;
+  gap: 80px;
+}
+
+.code-container {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 0;
+  overflow-x: auto;
+}
+
+.code {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.rs-logo {
+  height: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link {
+  text-decoration: none;
 }

@@ -3,8 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills&amp;Tools</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Examples</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section" id="profile">
+                <img src="./assets/img/photo_cv.jpg" alt="My photo" class="profile-photo">
+                <div>
+                    <h1 class="profile-section-title">Tatiana Korol</h1>
+                    <p>Senior QA Engineer</p>
+                </div>
+            </section>
+            <div class="joint-section">
+                <section class="section" id="Contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contact-list">
+                        <li class="contact-item"><a href="https://t.me/Nimiretta" class="contact-link">Telegram: @Nimiretta</a></li>
+                        <li class="contact-item"><a href="https://www.linkedin.com/in/tatiana-korol" class="contact-link">LinkedIn: Tatiana Korol</a></li>
+                        <li class="contact-item"><a href="https://github.com/Nimiretta" class="contact-link">GitHub: Nimiretta</a></li>
+                        <li class="contact-item"><a href="mailto:tatjana.deriugina@gmail.com" class="contact-link">Email: tatjana.deriugina@gmail.com</a></li>
+                    </ul>
+                </section>
+                <section class="section" id="about">
+                    <h2 class="section-title">About</h2>
+                    <p class="section-text">I am a dedicated Senior QA Engineer with extensive experience in ensuring the quality of web applications. Skilled in both manual and automated testing, I excel at analyzing requirements, developing test strategies, and mentoring team members. I am committed to continuous improvement and process automation, which has significantly enhanced the efficiency and reliability of the projects I have worked on.</p>
+                </section>
+            </div>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <div class="job-list">
+                    <div class="job-item">
+                        <h3 class="job-position">Senior QA Engineer</h3>
+                        <h4 class="job-company">JettyCloud LLC | 2022 - Present</h4>
+                        <div class="job-desc">Full cycle of work to ensure the quality of the web application for UCaaS customers:
+                            <ul class="job-desc-list">
+                                <li class="job-desc-list-item">Analyzing requirements, developing test strategy and designing test-cases</li>
+                                <li class="job-desc-list-item">Maintaining the test environment by handling components deployments and troubleshooting via internal custom tools</li>
+                                <li class="job-desc-list-item">Improving internal tools for process automation</li>
+                                <li class="job-desc-list-item">Conducting manual and automated API testing</li>
+                                <li class="job-desc-list-item">Performing manual (end-to-end) and automated testing of web applications, including analysis of CI reports, script writing and contribution to the test framework</li>
+                                <li class="job-desc-list-item">Educate newcomers on how to use testing tools and mentor their work which allow them to become productive and independent team members faster</li>
+                                <li class="job-desc-list-item">During relocation period I had Team Lead's responsibilities and managed work of the whole team (7 people)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job-item">
+                        <h3 class="job-position">QA Engineer</h3>
+                        <h4 class="job-company">DINS | 2020-2022</h4>
+                        <div class="job-desc">
+                            <ul class="job-desc-list">
+                                <li class="job-desc-list-item">Identify and estimate the scope of the testing required for a particular release</li>
+                                <li class="job-desc-list-item">Set goals and assign tasks to 2-3 QA engineers</li>
+                                <li class="job-desc-list-item">Establish contacts with colleagues from other teams and found the necessary information and equipment to perform testing and to collaborate efficiently with teams involved in the current project</li>
+                                <li class="job-desc-list-item">Make the plans, accounts and test-stands preparation for a demo</li>
+                                <li class="job-desc-list-item">Write test cases, checklists and user scenarios</li>
+                                <li class="job-desc-list-item">Preparing test plans according to the sprint and release goals</li>
+                                <li class="job-desc-list-item">Report and verify bug (Jira, TestLink)</li>
+                                <li class="job-desc-list-item">Writing different types of documentation in Confluence (e.g. policies, How-to pages etc)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills &amp; Tools</h2>
+                <div class="skills-container">
+                    <div class="skills-container-item">
+                        <h3>Skills</h3>
+                        <ul class="skills-list">
+                            <li class="skills-list-item">JavaScript Basics</li>
+                            <li class="skills-list-item">Git</li>
+                            <li class="skills-list-item">SQL (Oracle)</li>
+                            <li class="skills-list-item">Rest API</li>
+                            <li class="skills-list-item">GraphQL</li>
+                            <li class="skills-list-item">Selenium</li>
+                        </ul>
+                    </div>
+                    <div class="skills-container-item">
+                        <h3>Tools</h3>
+                        <ul class="skills-list">
+                            <li class="skills-list-item">VS Code, WebStorm</li>
+                            <li class="skills-list-item">GitLab, GitHub</li>
+                            <li class="skills-list-item">DBeaver, SQL Developer</li>
+                            <li class="skills-list-item">Postman, Insomnia</li>
+                            <li class="skills-list-item">TestLink, TestRail</li>
+                            <li class="skills-list-item">Kibana</li>
+                            <li class="skills-list-item">Confluence</li>
+                            <li class="skills-list-item">Jira, Redmine</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="joint-section">
+                <section class="section" id="code">
+                <h2 class="section-title">Code Examples</h2>
+                <div class="code-desc">
+                    <h3>Description:</h3>
+                    <ul class="code-desc-list">
+                        <li class="code-desc-list-item">An anagram is the result of rearranging the letters of a word to produce a new word</li>
+                        <li class="code-desc-list-item">Note: anagrams are case insensitive</li>
+                        <li class="code-desc-list-item">Complete the function to return true if the two arguments given are anagrams of each other; return false otherwise.</li>
+                    </ul>
+                    <h4>Examples:</h4>
+                    <ul class="code-desc-example-list">
+                        <li class="code-desc-example-list-item"><span class="preformatted">"foefet"</span> is an anagram of <span class="preformatted">"toffee"</span></li>
+                        <li class="code-desc-example-list-item"><span class="preformatted">"Buckethead"</span> is an anagram of <span class="preformatted">"DeathCubeK"</span></li>
+                    </ul>
+                    <div class="code-container">
+                        <pre class="code">
+// write the function isAnagram
+var isAnagram = function(test, original) {
+    if (test.length !== original.length) {
+        return false;
+    }
+    const testArr = test.toLowerCase().split('').sort();
+    const originalArr = original.toLowerCase().split('').sort();
+
+    for (let i = 0; i &lt; testArr.length; i++) {
+        if (testArr[i] !== originalArr[i]) {
+            return false;
+        }
+    }
+
+    return true;
+};
+                        </pre>
+                    </div>
+                </div>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="educ-item">
+                        <h3 class="educ-name">Bachelor of Computer Science</h3>
+                        <h4 class="educ-place">European Humanities University, Vilnius | 2023 - Present</h4>
+                        <p class="educ-desc">Part-time(session-based) program. The educational program is designed by practicing specialists from EPAM and is based on modern industry requirements. The program is accredited by the Lithuanian Centre for Quality Assessment in Higher Education (SKVC), fully complies with official procedures, standardized in the credits of the Bologna system, and provides the opportunity to continue studying in master's programs of universities in Europe and the USA in Computer Sciences.</p>
+                    </div>
+                    <div class="educ-item">
+                        <h3 class="educ-name">First ONline Institute of Testing</h3>
+                        <h4 class="educ-place">Quality Lab | 2019</h4>
+                        <p class="educ-desc">Certificate and description: https://qaschool.ru/school-center/certificate.php?id=21241&amp;lang=en</p>
+                    </div>
+                </section>
+            </div>
+            <div class="joint-section">
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="lang-list">
+                        <li class="lang-list-item">Russian: Native</li>
+                        <li class="lang-list-item">English: B2/B2+</li>
+                        <li class="lang-list-item"> Lithuanian: B2</li>
+                    </ul>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-text">CV project for RSSchool: https://Nimiretta.github.io/rsschool-cv</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                &copy; 2024 <a href="https://github.com/Nimiretta" class="footer-link">Nimiretta</a>
+            </div>
+            <a href="https://rs.school/courses/javascript-ru"><img src="./assets/svg/rsschool-logo.svg" alt="Link to RS School" class="rs-logo"></a>
+        </div>
+    </footer>
 </body>
 </html>
